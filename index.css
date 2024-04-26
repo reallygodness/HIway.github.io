@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    /* поставил шрифт опен санс если че поменяешь потом */
+    font-family: 'Montserrat', sans-serif;
+    /* чтобы по высоте не уходило вниз поставил -30 и еще 200 пикселей слева и справа отступы для красоты */
+    /* margin: -30px 40px; */
+    background-color: #141414;
+    color: white;
+    /* background-image: url(../images/bgmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.card {
+    background-color: black;
+    width: min-content;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 40px #434949;
+}
+
+.card-img {
+    width: 450px;
+    border-radius: 11px;
+    margin: 5px;
+}
+
+.card-tts {
+    width: 450px;
+    height: 300px;
+    border-radius: 11px;
+    margin: 5px;
+}
+
+
+.card-title {
+    margin: 20px 0px 0px 5px;
+    font-size: 14;
+    font-weight: 500;
+    /* color: #f0f8ffbb; */
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.card-sub {
+    margin: 20px 0px 0px 5px;
+    font-weight: 300;
+    font-size: 17px;
+    /* color: #f0f8ffbb */
+    color: rgba(255, 255, 255, 0.89);
+    ;
+}
+
+.btn {
+    background-color: black;
+    padding: 9px 12px;
+    text-decoration: none;
+    color: white;
+    border: 1px #fff solid;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+.konteiner-popular {
+    display: flex;
+    align-items: center;
+}
+
+.btn-buy {
+    /* margin: 20px 25px 20px; */
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular {
+    display: inline-flex;
+    transition: 0.8s;
+    margin: 20px 60px;
+    position: relative;
+
+
+
+}
+
+.popular:hover {
+    transform: scale(1.1);
+}
+
+
+/* шапка */
+header {
+    /* расположение по центру в вертикали и расстояние */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+}
+
+/* лого */
+.logotip {
+    height: 120px;
+    margin-left: -350px
+}
+
+
+/* компоненты меню */
+.a-links {
+    /* расположение в линию */
+    display: inline;
+    /* убираем декорацию текста */
+    text-decoration: none;
+    /* отступы между ссылками */
+    /* margin-right: 40px; */
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.b-links {
+    /* расположение в линию */
+    display: inline;
+    /* убираем декорацию текста */
+    text-decoration: none;
+    /* отступы между ссылками */
+    /* margin-right: 40px; */
+
+    color: white;
+    font-size: 18px;
+}
+
+/* телефон */
+.logo {
+    color: #1359ee;
+}
+
+/* текст в центре */
+.text {
+    position: absolute;
+    font-size: 40px;
+    top: 250px;
+    left: 40px;
+
+}
+
+
+.lexus {
+    height: 760px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.kategorii {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+header nav ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+    padding: 15px;
+
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 120px;
+    top: 40px;
+    left: 10px;
+    background: #141414;
+    display: none;
+
+}
+
+nav ul li ul li {
+    width: 100%;
+    padding: 7px;
+
+
+}
+
+
+header nav ul li a {
+    padding: 15;
+    display: block;
+}
+
+
+
+footer{
+    margin-top: 150px;
+    margin-right: -200px;
+    margin-left: -200px;
+    height: 300px;
+    background-color: #141414;
+    padding:30px 200px;
+    display: flex;
+    width: max-content;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.numbers{
+    display: block;
+}
+
+.logos{
+    display: flex;
+    gap:20px;
+    padding-bottom: 20px;
+}
+
+.socials{
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+.tg{
+    background-color: #2a6aff;
+}
+
+.links{
+    display: block;
+}
+
+.a-links_footer{
+    padding-bottom:27px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.container-footer{
+    display: flex;
+    gap:200px;
+
+}
+
+.payment-icons{
+    height: 60px;
+    display: block;
+}
+
+.visa{
+    height: 30px;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.icons-sponsors{
+    height: 60px;
+    display: block;
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.sponsors{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+.fot{
+    margin-top:-40px;
+    height: 150px;
+}
+
+.scnd{
+    margin-top:-5px;
+    background-color: #ffffff;
+    height: 250px;
+    padding:20px;
+    border-radius: 20px;
+    width: 250px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hot{
+    color: red;
+    font-size:25px;
+}
+
+.wow{
+    padding-bottom: 10px;
+}
+
+.and{
+    margin-top:-10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.arrow{
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+.imglog{
+    height: 50px;
+}
